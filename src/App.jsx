@@ -3,8 +3,10 @@ import React from 'react'
 
 import Card from './components/layout/Card'
 
-import FamiliaMembro from "./components/basicos/FamiliaMembro"
+import TabelaProdutos from './components/repeticao/TabelaProdutos'
+import ListaAlunos from './components/repeticao/ListaAlunos'
 import Familia from './components/basicos/Familia'
+import FamiliaMembro from "./components/basicos/FamiliaMembro"
 import Aleatorio from './components/basicos/Aleatorio'
 import Fragmento from './components/basicos/Fragmento'
 import ComParametro from './components/basicos/ComParametro'
@@ -16,6 +18,14 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className='Cards'>
+                <Card titulo="#07 - Desafio Tabela" color="#FF4C65">
+                    <TabelaProdutos />
+                </Card>
+
+                <Card titulo="#06 - Repeticao" color="#FF4C65">
+                    <ListaAlunos></ListaAlunos>
+                </Card>
+
                 <Card titulo="#05 - Componente com filhos" color="#00C8F8">
                     <Familia sobrenome='Silva'>
                         <FamiliaMembro nome='Pedro' />
