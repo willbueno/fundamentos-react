@@ -4,8 +4,6 @@ import React from 'react'
 
 import Primeiro from './components/basicos/Primeiro'
 
-const tag = <strong>Ola React</strong>
-
 ReactDOM.render(
     <div>
         <Primeiro></Primeiro>
