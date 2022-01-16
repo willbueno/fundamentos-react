@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function (props) {
+export default function CompParametro(props) {
     const status = props.nota >= 7 ? 'Aprovado' : 'Recuperacao'
     return (
         <div>
